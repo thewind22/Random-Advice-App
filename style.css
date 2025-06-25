@@ -1,0 +1,32 @@
+/* style.css */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f4f8; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #ffffff; /* White card background */
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+.button-glow {
+    transition: all 0.2s ease-in-out;
+}
+.button-glow:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+}
+.message-box {
+    background-color: #fefcbf;
+    border: 1px solid #fbd38d;
+    color: #975a16;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
